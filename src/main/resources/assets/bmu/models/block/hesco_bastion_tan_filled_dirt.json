@@ -1,0 +1,78 @@
+{
+  "parent": "block/block",
+  "ambientocclusion": true,
+  "textures": {
+    "particle": "bmu:block/hesco_bastion_tan_side",
+    "side": "bmu:block/hesco_bastion_tan_side",
+    "bottom": "bmu:block/hesco_bastion_tan_bottom",
+    "top": "bmu:block/hesco_bastion_tan_top",
+    "into": "bmu:block/hesco_dirt_top"
+  },
+  "elements": [
+    {
+      "comment": "North Wall",
+      "from": [0, 0, 0], 
+      "to": [16, 16, 2],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#side" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#into" },
+        "west":  { "uv": [0, 0, 2, 16],   "texture": "#side" },
+        "east":  { "uv": [14, 0, 16, 16], "texture": "#side" },
+        "up":    { "uv": [0, 0, 16, 2],  "texture": "#top" },
+        "down":  { "uv": [0, 0, 16, 2],  "texture": "#bottom" }
+      }
+    },
+    {
+      "comment": "South Wall",
+      "from": [0, 0, 14], 
+      "to": [16, 16, 16],
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#into" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#side" },
+        "west":  { "uv": [14, 0, 16, 16], "texture": "#side" },
+        "east":  { "uv": [0, 0, 2, 16],   "texture": "#side" },
+        "up":    { "uv": [0, 14, 16, 16], "texture": "#top" },
+        "down":  { "uv": [0, 14, 16, 16], "texture": "#bottom" }
+      }
+    },
+    {
+      "comment": "West Wall",
+      "from": [0, 0, 2], 
+      "to": [2, 16, 14],
+      "faces": {
+        "north": { "uv": [14, 0, 16, 16], "texture": "#into" },
+        "south": { "uv": [0, 0, 2, 16],   "texture": "#into" },
+        "west":  { "uv": [2, 0, 14, 16], "texture": "#side" },
+        "east":  { "uv": [2, 0, 14, 16], "texture": "#into" },
+        "up":    { "uv": [0, 2, 2, 14],   "texture": "#top" },
+        "down":  { "uv": [0, 2, 2, 14],   "texture": "#bottom" }
+      }
+    },
+    {
+      "comment": "East Wall",
+      "from": [14, 0, 2], 
+      "to": [16, 16, 14],
+      "faces": {
+        "north": { "uv": [0, 0, 2, 16],   "texture": "#into" },
+        "south": { "uv": [14, 0, 16, 16], "texture": "#into" },
+        "west":  { "uv": [2, 0, 14, 16], "texture": "#into" },
+        "east":  { "uv": [2, 0, 14, 16], "texture": "#side" },
+        "up":    { "uv": [14, 2, 16, 14], "texture": "#top" },
+        "down":  { "uv": [14, 2, 16, 14], "texture": "#bottom" }
+      }
+    },
+    {
+      "comment": "Filled Core inside",
+      "from": [2, 0, 2], 
+      "to": [14, 15, 14],
+      "faces": {
+        "north": { "uv": [2, 1, 14, 16], "texture": "#into" },
+        "south": { "uv": [2, 1, 14, 16], "texture": "#into" },
+        "west":  { "uv": [2, 1, 14, 16], "texture": "#into" },
+        "east":  { "uv": [2, 1, 14, 16], "texture": "#into" },
+        "up":    { "uv": [2, 2, 14, 14], "texture": "#into" },
+        "down":  { "uv": [2, 2, 14, 14], "texture": "#bottom" }
+      }
+    }
+  ]
+}

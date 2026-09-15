@@ -1,0 +1,12 @@
+{
+  "variants": {
+    "count=1,axis=x": { "model": "bmu:block/sandbag_1" },
+    "count=1,axis=z": { "model": "bmu:block/sandbag_1", "y": 90 },
+    "count=2,axis=x": { "model": "bmu:block/sandbag_2" },
+    "count=2,axis=z": { "model": "bmu:block/sandbag_2", "y": 90 },
+    "count=3,axis=x": { "model": "bmu:block/sandbag_3" },
+    "count=3,axis=z": { "model": "bmu:block/sandbag_3", "y": 90 },
+    "count=4,axis=x": { "model": "bmu:block/sandbag_4" },
+    "count=4,axis=z": { "model": "bmu:block/sandbag_4", "y": 90 }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": { "recipes": ["bmu:disguised_dirt_carpet"] },
+  "criteria": {
+    "has_dirt_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["bmu:dirt_carpet"] }] }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": { "recipe": "bmu:disguised_dirt_carpet" }
+    }
+  },
+  "requirements": [["has_dirt_carpet", "has_the_recipe"]]
+}

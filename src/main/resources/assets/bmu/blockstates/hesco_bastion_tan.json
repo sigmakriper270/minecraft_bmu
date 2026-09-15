@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "fill=empty": { "model": "bmu:block/hesco_bastion_tan_empty" },
+    "fill=gravel": { "model": "bmu:block/hesco_bastion_tan_filled_gravel" },
+    "fill=sand": { "model": "bmu:block/hesco_bastion_tan_filled_sand" },
+    "fill=dirt": { "model": "bmu:block/hesco_bastion_tan_filled_dirt" },
+    "fill=concrete": { "model": "bmu:block/hesco_bastion_tan_filled_concrete" }
+  }
+}

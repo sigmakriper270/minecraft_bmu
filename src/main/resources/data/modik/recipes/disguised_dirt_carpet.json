@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "carpet",
+  "ingredients": [
+    { "item": "bmu:dirt_carpet" },
+    { "item": "bmu:dirt_carpet" },
+    { "item": "bmu:dirt_carpet" },
+    { "tag": "minecraft:leaves" }
+  ],
+  "result": {
+    "item": "bmu:disguised_dirt_carpet",
+    "count": 1
+  }
+}

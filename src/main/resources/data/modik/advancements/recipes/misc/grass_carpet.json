@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": ["bmu:grass_carpet"]
+  },
+  "criteria": {
+    "has_grass_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:grass_block"] }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bmu:grass_carpet"
+      }
+    }
+  },
+  "requirements": [
+    ["has_dirt", "has_the_recipe"]
+  ]
+}
